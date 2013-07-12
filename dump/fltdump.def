@@ -1,0 +1,7 @@
+LIBRARY FLTDUMP INITINSTANCE TERMINSTANCE
+DESCRIPTION '@#FSD:1.24#@ FleetStreet dump routines'
+PROTMODE
+DATA MULTIPLE NONSHARED
+EXPORTS
+   RegisterExptHandler      @1
+   DeregisterExptHandler    @2
